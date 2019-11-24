@@ -1,0 +1,40 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <script src="https://code.jquery.com/jquery-3.4.0.min.js" integrity="sha256-BJeo0qm959uMBGb65z40ejJYGSgR7REI4+CW1fNKwOg=" crossorigin="anonymous"" type="text/javascript" charset="utf-8"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0/dist/Chart.min.js" type="text/javascript" charset="utf-8"></script>
+    <script src="js/chart-device-data.js" type="text/javascript" charset="utf-8"></script>
+    <link href="css/style.css" rel="stylesheet" />
+
+    <title>Temperature &amp; Humidity Real-time Data</title>
+</head>
+
+<body>
+    <div id="outsideBox">
+        <h1 class="flexHeader">
+            Smart Thumb
+        </h1>
+        <div>
+            <!--<canvas id="iotChart"></canvas>-->
+            <div class="headers">
+                Soil Moisture
+                <p class="data" id="soilText">soilMoisture</p>
+            </div>
+            <div class="headers">
+                Temperature (&#8451)
+                <p class="data" id="temperatureText">temperature</p>
+            </div>
+            <div class="headers">
+                Humidity
+                <p class="data" id="humidityText">humidity</p>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
